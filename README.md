@@ -1,5 +1,5 @@
 # Eyetracking-Data-analysis-and-scanpath-comparison
-This code was based on academic research in an attempt to evaluate the visual routine similarities of different observers during an eyetracking experiment. I am not a specialist and this work was developed as my bachalor's thesis.
+This code was based on academic research in an attempt to evaluate the visual routine similarities of different observers during an eyetracking experiment. I am not a specialist and this work was developed as my bachalor's thesis. Unfortunately i don't have the dataset anymore, but you can see the data disposition at (https://www.realeye.io/) after any experiment.
 
 The eyetraking data was obtained from a Webcam-based eyetraking system (https://www.realeye.io/), so the structure can possibly be ineficient without the proper modifications to work with other eyetraking systems.
 
