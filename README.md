@@ -23,10 +23,10 @@ The **main.py** is commented and was summarized into this README.md in an attemp
 
 Some functions demands a little bit more explanation:
 
-- expandir(string,duracao) : responsable to return a string after multiplicate the fixations according to a duration threshold (50 milliseconds in this code).
-- blosum_compare(string1,string2) : compare two strings and returns a similarity score based on ScanMatch.
-- score_levenshtein(string1,string2) : compare two strings and returns a similarity score based on Edit Distance.
-- string_expandida2(string_expandida) : expands the strings to avoid blank gaps between fixations, turning those gaps into **Z** letters (the goal was not punish gaps).
+- **expandir(string,duracao)** : responsable to return a string after multiplicate the fixations according to a duration threshold (50 milliseconds in this code).
+- **blosum_compare(string1,string2)** : compare two strings and returns a similarity score based on ScanMatch.
+- **score_levenshtein(string1,string2)** : compare two strings and returns a similarity score based on Edit Distance.
+- **string_expandida2(string_expandida)** : expands the strings to avoid blank gaps between fixations, turning those gaps into **Z** letters (the goal was not punish gaps).
 
 This code also offers saliency maps as an option and it is quite simple modify that to plot the scanpaths into the observed images.
 May be useful to you applying some changes as compare the fixation durations at every image's regions and plot a graph based on that (shame on me i DID that but i was versioning the code by myself and have lost some features that right now i don't have free time do re-do).
